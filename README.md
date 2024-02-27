@@ -9,7 +9,7 @@ This project implements a multi-threaded priority message queue system in Python
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [Running the Program](#running-the-program)
-- [Test Cases](#test-cases)
+- [Test Case](#test-case)
 - [License](#license)
 
 ## Project Overview
@@ -53,12 +53,13 @@ Execute the following command in the terminal or command prompt:
 python main.py
 ```
 
-## Test Cases
+## Test Case
 
 The test case in `main.py` simulates a scenario where multiple threads send messages to each other with different priorities. Messages are randomly generated and sorted by priority before sending. Expected outcomes include the display of messages being sent between threads, demonstrating the functionality of the priority message queue, thread pool, and message sender components.
 
 I got below output after running main.py file.
 
+```bash
 Thread 0 sending message: gycLkfOsuEtDTHxsMTfB with priority 1 to Thread 1
 Thread 0 sending message: wpkjhWisjoMNoXOjTScZ with priority 2 to Thread 0
 Thread 0 sending message: OOOPAsPsdmjyFoCnMzYF with priority 4 to Thread 0
@@ -74,6 +75,7 @@ Thread 2 sending message: IzEThIbZXNsDUQWKsZWJ with priority 2 to Thread 1
 Thread 2 sending message: KpgFMGJWtiQKzkDMXhQj with priority 3 to Thread 0
 Thread 2 sending message: DkOCyGkYcmgZWEBEqQLj with priority 4 to Thread 1
 Thread 2 sending message: VUQrdQdOFNPyhgbpuLua with priority 5 to Thread 2
+```
 
 ## License
 
